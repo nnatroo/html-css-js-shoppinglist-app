@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Shopping List</h1>
+    <input type="text" id="item-input" placeholder="Add a new item">
+    <select id="category-input">
+        <option value="Groceries">Groceries</option>
+        <option value="Clothing">Clothing</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Other">Other</option>
+    </select>
+    <input type="number" id="price-input" placeholder="Price">
+    <button id="add-item-btn">Add Item</button>
+    <ul id="item-list"></ul>
+    <p>Total Cost: $<span id="total-cost">0.00</span></p>
+</div>
+<script src="./scripts/script.js"></script>
+</body>
+</html>
